@@ -10,15 +10,15 @@ import copy
 import math
 
 #Import all Sales Extracts
-se_1803 = pd.read_excel("se_selection\\SalesExtracts 05.03.18.xlsx", 'Retail')
-se_1712 = pd.read_excel("se_selection\\SalesExtracts 11.12.17.xlsx", 'Retail')
-se_1709 = pd.read_excel("se_selection\\SalesExtracts 04.09.17.xlsx", 'Retail')
-se_1706 = pd.read_excel("se_selection\\SalesExtracts 06.06.17.xlsx", 'Retail')
-se_1703 = pd.read_excel("se_selection\\SalesExtracts 06.03.17.xlsx", 'Retail') 
-se_1612 = pd.read_excel("se_selection\\Sales Extracts 05.12.16.xlsx", 'RetailOurModels')
-se_1609 = pd.read_excel("se_selection\\Sales Extract 21.09.2016.xlsx", 'Retail2')
-se_1606 = pd.read_excel("se_selection\\SalesExtracts 01.05.2016 - 07.07.2016.xlsx", 'Retail') 
-se_1603 = pd.read_excel("se_selection\\SalesExtracts 01.05.2015 - 24.05.2016.xlsx", 'Retail') 
+se_1803 = pd.read_excel("se_selection\\*** 05.03.18.xlsx", 'Retail')
+se_1712 = pd.read_excel("se_selection\\*** 11.12.17.xlsx", 'Retail')
+se_1709 = pd.read_excel("se_selection\\*** 04.09.17.xlsx", 'Retail')
+se_1706 = pd.read_excel("se_selection\\*** 06.06.17.xlsx", 'Retail')
+se_1703 = pd.read_excel("se_selection\\*** 06.03.17.xlsx", 'Retail') 
+se_1612 = pd.read_excel("se_selection\\*** 05.12.16.xlsx", 'RetailOurModels')
+se_1609 = pd.read_excel("se_selection\\*** 21.09.2016.xlsx", 'Retail2')
+se_1606 = pd.read_excel("se_selection\\*** 01.05.2016 - 07.07.2016.xlsx", 'Retail') 
+se_1603 = pd.read_excel("se_selection\\*** 01.05.2015 - 24.05.2016.xlsx", 'Retail') 
 
 ##Keep relevant columns
 se_1803 = se_1803.loc[:,['DealerName','AFRLingDealer','Zone','RegistrationDate','CustomerOrderDate','Fullname','FleetCategory','FleetCustomer','VIN','FamilyLCDV']]
